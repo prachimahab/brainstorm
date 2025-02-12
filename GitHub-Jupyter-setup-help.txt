@@ -1,0 +1,51 @@
+﻿Setting up a Virtual Environment 
+Create a virtual environment with pip: 
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+
+
+Create a virtual environment with conda:
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+
+GitHub 
+Set up GitHub
+https://docs.github.com/en/github/getting-started-with-github/set-up-git
+
+
+GitHub Guides
+https://guides.github.com/
+
+
+Command Line Reference 
+https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-using-the-command-line
+
+
+Adding a file to  repository 
+1. Change the current working directory to your local repository.
+2. Stage the file for commit to your local repository.
+* $ git add . 
+* # Adds the file to your local repository and stages it for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+3. Commit the file that you've staged in your local repository.
+* $ git commit -m "Add existing file"
+* # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+4. Push the changes in your local repository to GitHub.
+* $ git push origin your-branch
+* # Pushes the changes in your local repository up to the remote repository you specified as the origin
+Cloning a repository 
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+
+JupyterLab 
+Installation
+https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+
+
+Running Jupyter 
+$ jupyter lab 
+* When Jupyter Notebook opens in your browser, the url indicates that this web app is served from the local machine (your computer). 
+* You can close the local server by closing out the webpage or by typing CTRL+c in the command line. 
+* Create new files using the Launcher or by navigating to 'File'
+
+
+Beginner’s Tutorial 
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
